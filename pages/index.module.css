@@ -1,0 +1,156 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    margin-top: 2%;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #ddd;
+}
+.link {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+.input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.selectCountry {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+.tableHeader {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableHeader:first-child {
+    border-top-left-radius: 4px;
+}
+
+.tableHeader:last-child {
+    border-top-right-radius: 4px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: white;
+}
+.link {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin-bottom: 8px;
+    text-decoration: underline;
+
+}
+
+.searchInput,
+.selectCountry {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableHeader:first-child {
+    border-top-left-radius: 4px;
+}
+
+.tableHeader:last-child {
+    border-top-right-radius: 4px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    color: white;
+    /* Set text color to white */
+}
